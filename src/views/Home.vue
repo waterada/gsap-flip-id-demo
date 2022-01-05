@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <router-link to="/next">Next</router-link>
+    <div v-gsap-flip-id="'hoge'" style="border: blue 1px solid; width: 100px; height: 100px;">
+      <span style="font-size: 10pt;">あいうえお</span>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
 export default defineComponent({
   name: 'Home',
-  components: {
-    HelloWorld,
-  },
 });
 </script>
+
+<style>
+.home {
+  border: gray 5px solid;
+  padding: 10px;
+}
+</style>
