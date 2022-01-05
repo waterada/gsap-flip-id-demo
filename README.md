@@ -1,4 +1,4 @@
-# gsap-flip-test
+# gsap-flip-id-demo
 
 ## Project setup
 ```
