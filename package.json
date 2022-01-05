@@ -73,5 +73,6 @@
     "transform": {
       "^.+\\.vue$": "vue-jest"
     }
-  }
+  },
+  "web-types": "./web-types.json"
 }
