@@ -10,10 +10,11 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production, then deploy
 ```
-npm run build
+npm run deploy
 ```
+https://waterada.github.io/gsap-flip-id-demo-pages/
 
 ### Run your unit tests
 ```
